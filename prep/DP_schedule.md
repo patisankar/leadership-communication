@@ -1,179 +1,135 @@
-# DP-Optimized Weekly Calendar (Google Calendar Ready)
+# DP-Optimized Schedule (Work Recovery + Interview Peak)
 
-**Prep Time:**  
-- Morning: **4:30 AM – 6:00 AM**  
-- Evening: **9:00 PM – 11:00 PM**  
-
-**Office Time:**  
-- **9:00 AM – 5:00 PM**
-
-**Goal:**  
-Maximize interview readiness **and** senior-level work performance  
-while preserving energy and communication quality.
+**Context:**  
+- Interview preparation is peaking  
+- Work rating has dipped  
+- Goal: **stabilize work credibility first**, without losing interview momentum
 
 ---
 
-## Fixed Daily Anchors (Weekdays)
+## High-Level Strategy
 
-- **4:30 – 6:00 AM** → Deep focus (highest cognitive clarity)
-- **9:00 AM – 5:00 PM** → Office work (delivery + communication)
-- **9:00 – 11:00 PM** → Controlled prep / reflection
-- **6:30 – 9:00 PM** → Dinner, family, unwind (protected time)
+- **Mon–Thu:** Low-intensity prep (energy + credibility)
+- **Fri–Sun:** High-intensity prep (interview coins)
+
+This is **intentional**, not a slowdown.
+
+> Sacrifice weekday intensity to preserve reachability and reputation.
 
 ---
 
-## Monday — Work Coins (Credibility First)
+## Mon–Thu — Maintenance Mode (Low Prep)
 
-### 🌅 Morning (4:30 – 6:00 AM)
-- System design reading (work-related)
-- Think through trade-offs, write notes
+### 🌅 Morning (4:30 AM – 6:00 AM)
+**Allowed**
+- Review notes
+- System design reading
+- Behavioral story prep
+- Re-reading solved problems
+
+**Not Allowed**
+- Timed DSA
+- New hard DP problems
+- Anything mentally draining
+
+---
 
 ### 🏢 Office (9:00 AM – 5:00 PM)
-- Deep work on feature / design
-- Design reviews or key discussions
-- Focus on:
-  - Calm explanations
-  - Structured disagreement
-  - Summarizing decisions
+**Primary Objective: Repair Work Credibility**
 
-### 🌙 Night
-- **9:00 – 10:00 PM**: Light reflection  
-- **10:00 – 11:00 PM**: Wind down / sleep prep
+Daily non-negotiables:
+- One written status update
+- One clarification question in meetings
+- One summary after discussions
 
-**DP rationale:**  
-Strong communication today reduces future rework and energy drain.
+Preferred phrases:
+- “Here’s what I’m optimizing for…”
+- “Here’s the trade-off I see…”
+- “Here’s the next step and timeline…”
 
 ---
 
-## Tuesday — Interview Coins (DSA Heavy)
+### 🌙 Night (9:00 PM – 11:00 PM)
+**Allowed**
+- Review notes
+- Practice explaining solutions aloud
+- Light mock explanations
 
-### 🌅 Morning (4:30 – 6:00 AM)
-- DSA practice (DP / Graphs)
-- 1–2 problems max
-- Explicit state → transition → base
-
-### 🏢 Office (9:00 AM – 5:00 PM)
-- Execution-focused tasks
-- Avoid heavy meetings if possible
-
-### 🌙 Night (9:00 – 11:00 PM)
-- Review morning solutions
-- Write concise pattern notes
-
-**DP rationale:**  
-Morning builds coins, night consolidates them.
+**Not Allowed**
+- Grinding problems
+- “One more question”
 
 ---
 
-## Wednesday — Recovery + Light Alignment
+## Friday — Transition Day
 
-### 🌅 Morning (4:30 – 6:00 AM)
-- Light reading (system design articles, notes)
-- No problem-solving
-
-### 🏢 Office (9:00 AM – 5:00 PM)
-- Code reviews
-- Mentoring
-- Documentation
-
-### 🌙 Night
-- **9:00 – 10:00 PM**: Optional behavioral story refinement  
-- **10:00 – 11:00 PM**: Full rest
-
-**DP rationale:**  
-Prevents mid-week fatigue and emotional overload.
-
----
-
-## Thursday — Mixed Coins (Work + Interview Overlap)
-
-### 🌅 Morning (4:30 – 6:00 AM)
-- System design (interview + work overlap)
-- One topic deeply (e.g., caching, rate limiting)
+### 🌅 Morning (4:30 AM – 6:00 AM)
+- Light review only
 
 ### 🏢 Office (9:00 AM – 5:00 PM)
-- Architecture / design discussion
-- Apply morning preparation directly
-
-### 🌙 Night (9:00 – 10:30 PM)
-- Capture reusable explanations
-- Practice verbalizing designs
-
-**DP rationale:**  
-One effort pays off in two dimensions.
-
----
-
-## Friday — Recovery + Professional Closure
-
-### 🌅 Morning (4:30 – 6:00 AM)
-- Light review only (notes, summaries)
-- No new material
-
-### 🏢 Office (9:00 AM – 5:00 PM)
-- Close tasks
-- Send clean updates and summaries
+- Close loops
+- Send summaries
 - No new initiatives
 
-### 🌙 Night (9:00 – 11:00 PM)
-- ❌ No prep
-- Relax and reset
-
-**DP rationale:**  
-Protects weekend energy and mental clarity.
+### 🌙 Night
+- Rest (no prep)
 
 ---
 
-## Saturday — Interview Simulation
+## Saturday — Peak Interview Prep Day
 
-### 🌅 Morning (4:30 – 6:00 AM)
+### 🌅 Morning (4:30 AM – 6:00 AM)
+- Hard DSA / DP / Graphs
+- Timed
+- Verbal reasoning
+
+### 🌙 Night (9:00 PM – 11:00 PM)
+- Deep review
+- Fix **one** weakness
+- Write distilled notes
+
+---
+
+## Sunday — Secondary Peak (Lower Intensity)
+
+### 🌅 Morning
 - Mock interview (DSA or system design)
-- Timed, verbalized thinking
 
-### 🌙 Night (9:00 – 10:00 PM)
-- Review mock interview
-- Fix **one** weakness only
-
-**Rest of day:** Free / recovery
+### 🌙 Night
+- Review only
+- Mental closure
 
 ---
 
-## Sunday — Full Reset (Mandatory)
+## Why This Works (DP Explanation)
 
-- ❌ No work
-- ❌ No interview prep
-- Physical and mental recovery
-
-**DP rationale:**  
-Energy regeneration is non-negotiable.
+- Weekdays protect **energy + credibility**
+- Weekends maximize **interview coins**
+- Prevents burnout and reputation damage
+- Preserves long-term optionality
 
 ---
 
-## Google Calendar Tips
+## Non-Negotiable Rule
 
-- Create one event per block
-- Set **Repeat → Weekly**
-- Set **End after 4 weeks**
-- Color-code:
-  - 🟦 Work / Communication
-  - 🟩 Interview Prep
-  - 🟨 Recovery
+> If tomorrow is a workday, protect credibility today.  
+> If tomorrow is not a workday, maximize prep today.
 
 ---
 
-## Emergency Rule (DP State Repair)
+## Senior-Level Reminder
 
-If a workday is:
-- Meeting-heavy  
-- Emotionally draining  
-- Conflict-heavy  
-
-Then:
-- Cancel night prep
-- Convert next morning to light reading only
+> Clear communication today is future energy saved.
 
 ---
 
-### Senior-level Reminder
+## Expected Outcome (2–3 Weeks)
 
-> “Clear communication today is future energy saved.”
+- Work ratings stabilize
+- Stress decreases
+- Interview performance improves
+- Confidence returns
+
+---
+
+Just say the word.
