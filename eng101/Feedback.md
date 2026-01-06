@@ -30,7 +30,7 @@ Your example is good, but for speaking, shorter examples work better. Make sure 
 3rd Feedback
 =========
 
-1.** Shorter sentences sound clearer and more senior.**
+1. **Shorter sentences sound clearer and more senior.**
    Before (long, less senior):
 “We made this change because the SDK couldn’t always load the key and in those cases we logged a warning and continued, which caused confusion for merchants.”
 
