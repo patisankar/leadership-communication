@@ -1,5 +1,10 @@
+
+High-memorability combinations (best practice)
+======
+Concrete + emotional + reusable across contexts.
+
 Memorable compound phrases (very effective)
-===========
+===
 These are especially sticky in reviews and design docs.
 
 Single source of truth
@@ -23,7 +28,7 @@ Control plane / data plane
 Key rotation window
 
 Words that elevate senior presence
- =======
+=====
 
 These imply foresight and systems thinking.
 
