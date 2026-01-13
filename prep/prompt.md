@@ -1,4 +1,4 @@
-### building app
+## Java building app
 
 Act as a senior staff engineer and system design interviewer.
 
@@ -52,7 +52,7 @@ Keep scope realistic and interview-credible (not toy, not overbuilt)
 
 Design this step-by-step and focus on what interviewers actually care about, not academic completeness.
 
-## System Design Whiteboard Prompt
+### System Design Whiteboard Prompt
 
 Act as a senior system design interviewer.
 
@@ -121,3 +121,120 @@ Keep the solution realistic and interview-credible
 Optimize for clarity over completeness
 
 After the walkthrough, ask follow-up questions as an interviewer would (e.g., shard rebalancing, retry storms, schema evolution).
+
+## Ruby
+# System Design Whiteboard Prompt  
+*(Senior Backend Ruby Engineer – Interview Optimized)*
+
+## Role & Context
+Act as a **senior system design interviewer** evaluating a **principal-level backend engineer with a Ruby/Rails background**.
+
+The goal is to **whiteboard and explain** a **production-grade payment processing platform**, focusing on **correctness, resiliency, scalability, and trade-offs**, not framework mechanics.
+
+---
+
+## Problem Statement
+Design a system that supports:
+
+- **Idempotent payment creation**
+- **High-volume transaction retries**
+- **Real-time payment status visibility**
+- **Multi-tenant (merchant-based) isolation**
+
+The system must handle:
+- Duplicate client requests  
+- Partial failures across external payment providers  
+- Retry storms and traffic spikes  
+- Strong auditability and observability requirements  
+
+---
+
+## Explicit Assumptions (state these early)
+- Payments are **financially sensitive**; correctness > latency
+- External providers are unreliable and inconsistent
+- The system is **eventually consistent**, not distributed-transactional
+- Retries are expected and must be bounded
+- Multi-tenant isolation is a first-class concern
+
+---
+
+## Whiteboard Walkthrough Structure
+
+### 1. High-Level Architecture
+Draw and explain:
+- React Client
+- Backend-for-Frontend (GraphQL + limited REST)
+- Internal services (payment execution, retry orchestration)
+- Datastores and their responsibilities
+
+Focus on **clear boundaries** and **ownership**.
+
+---
+
+### 2. API Boundary Decisions
+Explain **why each interface exists**:
+- **GraphQL** for UI-driven aggregation and controlled data fetching
+- **REST** for webhooks, admin, and debugging flows
+- **RPC (gRPC-style)** for internal, strongly-typed service communication
+
+State trade-offs explicitly.
+
+---
+
+### 3. Core Request Flow: Create Payment
+Whiteboard the full flow:
+
+1. Request enters system
+2. Idempotency key is validated
+3. Payment intent is persisted
+4. External provider is invoked
+5. Result is classified:
+   - Success
+   - Retryable failure
+   - Terminal failure
+
+Relate this to:
+- Rails controllers
+- Background jobs (Sidekiq-style execution)
+
+---
+
+### 4. Idempotency Strategy
+Explain:
+- Where idempotency keys are generated
+- How they are stored (Redis + durable store)
+- How duplicate requests return the **same response**
+- Why idempotency is enforced at the **boundary**, not deep inside the system
+
+---
+
+### 5. Retry Orchestration (Saga Mindset)
+Describe:
+- Explicit retry state machine
+- Bounded retries with backoff and jitter
+- Compensation steps (cancel auth, release holds)
+- Why orchestration is preferred over implicit callbacks
+
+Tie this to real payment failures.
+
+---
+
+### 6. Data Modeling & Ownership
+Explain **why multiple datastores exist**:
+
+- **Relational DB** – authoritative payment state machine
+- **NoSQL (Mongo)** – raw provider and webhook payloads
+- **Event / Timeline store (Cassandra)** – immutable history
+- **Redis** – coordination primitives (idempotency, rate limiting)
+
+Emphasize **clear ownership and access patterns**.
+
+---
+
+### 7. Scaling Strategy
+Explain:
+- SQL **sharding by merchant**
+- Why cross-shard transactions are avoided
+- How shard routing works
+- How read models and analytics are separated from OL
+
