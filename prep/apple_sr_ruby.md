@@ -16,8 +16,11 @@ They allow you to modularize your code and keep it separate from the core applic
 This makes it easier to maintain and update the codebase as a whole. 
 In the end state of gateway an functionally different component would be encapsulated into an engine and engines would be talking with each via a strictly defined APIs by passing the business objects that will be shared via gems
 
+Partnered with engineers and product stakeholders to define domain ownership and dependency rules within a large Rails system, aligning architecture with team boundaries and reducing cross-team regressions.
 
 **Phase1**:
 Phase 1 introduces Packwerk-backed mini-modules to a large Rails payments monolith because the system is too large and entangled to correctly identify bounded contexts upfront. By mechanically grouping code into model/module-sized components, we create immediate structure, improve navigability and ownership, and expose real dependency patterns. This low-risk step establishes a concrete component map and dependency baseline, 
 enabling informed boundary definition and deeper refactoring in later phases without destabilizing the system.
+
+
 
