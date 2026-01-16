@@ -1,3 +1,83 @@
+# Apple – Senior Software Engineer Interview (Ruby on Rails)
+
+## Hiring Manager Introduction
+Thank you for joining today, Shankar. This interview is designed to assess both your technical depth in Ruby on Rails and how you collaborate, communicate, and lead within complex, cross-functional environments—key expectations for senior engineers at Apple.
+
+---
+
+## 1. Introduction and Current Role
+**Question:**  
+Can you briefly walk me through your current role and responsibilities, focusing on:
+- The systems you own
+- The scale and impact of your work
+- Your level of technical and decision-making ownership
+
+---
+
+## 2. Ruby on Rails – Depth and Breadth
+**Questions:**
+- Describe a large-scale Ruby on Rails application you’ve worked on recently.
+  - What was the business domain?
+  - What scale were you operating at (users, traffic, data volume)?
+- How have you approached performance optimization in Rails applications?
+- Tell me about a time you refactored or modernized a legacy Rails codebase.
+  - What trade-offs did you consider?
+  - How did you manage risk while delivering changes incrementally?
+
+---
+
+## 3. System Design and Architecture
+**Questions:**
+- How do you design Rails services that are expected to evolve over time?
+- When do you adhere strictly to Rails conventions, and when do you intentionally deviate?
+- Describe a situation where you had to make an architectural decision with incomplete or ambiguous information. How did you proceed?
+
+---
+
+## 4. Collaboration and Cross-Functional Work
+**Questions:**
+- Share an example of working closely with product, design, or QA stakeholders.
+- How do you handle strong disagreements between engineering and non-engineering teams?
+- What does effective collaboration look like to you in practice?
+
+---
+
+## 5. Comfort with Ambiguity
+**Questions:**
+- Tell me about a loosely defined problem you were asked to solve.
+- How did you bring clarity and structure to the problem?
+- How do you help junior or mid-level engineers stay productive when requirements are evolving?
+
+---
+
+## 6. Communication Style
+**Questions:**
+- How do you adjust your communication when speaking with senior leadership versus peer engineers?
+- Describe a time when miscommunication caused an issue. What did you learn?
+- How do you ensure technical decisions are clearly documented and understood?
+
+---
+
+## 7. Leadership and Influence
+**Questions:**
+- How do you influence technical direction without formal authority?
+- Give an example of mentoring or coaching another engineer.
+- Tell me about a time you had to push back on a decision or raise a difficult concern.
+
+---
+
+## 8. Motivation and Closing
+**Questions:**
+- What motivates you to consider Apple at this stage of your career?
+- What technical or leadership challenges are you most excited to take on next?
+
+---
+
+**Instructions:**  
+Please begin with Section 1. We will proceed through the interview as a live, interactive discussion.
+
+
+
 Questions
 ====
 1.Scope of systems you own and the impact of your work?
