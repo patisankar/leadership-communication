@@ -1,3 +1,15 @@
+Curse of knowledge, curse of passion
+======
+The antidote: empathy and curiosity
+============
+**Curiosity** means actively thinking: What does my audience actually need right now?
+
+**Empathy** means adjusting your message based on that understanding, not just knowing it intellectually.
+
+**In short:**
+Good communication is not about saying everything you know; it’s about saying what they need to hear.
+
+Good communication is not about saying everything you know; it’s about saying what they need to hear.
 Question that we need to ask
 ==========
 How to tailor communication to your audience
