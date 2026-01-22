@@ -102,5 +102,11 @@ Partnered with engineers and product stakeholders to define domain ownership and
 Phase 1 introduces Packwerk-backed mini-modules to a large Rails payments monolith because the system is too large and entangled to correctly identify bounded contexts upfront. By mechanically grouping code into model/module-sized components, we create immediate structure, improve navigability and ownership, and expose real dependency patterns. This low-risk step establishes a concrete component map and dependency baseline, 
 enabling informed boundary definition and deeper refactoring in later phases without destabilizing the system.
 
+#### Interview at Jan-21
+1. why rails/ruby have more productivity than other lang
+2. Stimulas different from react
+3. How do we fix performance issues
+4. 
+
 
 
