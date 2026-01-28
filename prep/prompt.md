@@ -1,3 +1,8 @@
+## when to use AI and not
+AI has been most helpful for documentation and version-upgrade reviews (including RubyCorp recommendations)—especially for walking through critical payment and transaction flows end-to-end and ensuring edge cases and failure paths are clearly documented. It’s also useful for exploring design alternatives and quickly developing prototypes or initial scaffolding.
+
+I’m more cautious with AI-generated unit tests for correctness-critical payment flows, as they can miss domain-specific invariants. In those cases, I rely on manually written tests based on real production scenarios and use AI only as a secondary aid.
+
 ## Java building app
 
 Act as a senior staff engineer and system design interviewer.
