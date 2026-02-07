@@ -75,3 +75,8 @@ In code reviews, I provide feedback that emphasizes intent and system impact, he
 ### Storytelling
 Clearly articulating where we’re going (the concrete outcome), why it’s achievable (assumptions, constraints, and evidence), and how we’ll evaluate progress (signals of success, failure, and learning). 
 Framing discussions this way aligns mental models early, reduces rework during execution, and helps teams adapt to uncertainty without thrashing.
+
+### Communicate for alignment, not completeness.
+Effective communication is not about sharing everything I know, but about sharing what others need to hear to move forward. 
+Apply curiosity to understand my audience’s context and empathy to adapt my message. 
+Prioritize clarity, anticipate resistance, and anchor decisions in outcomes that matter—especially in complex or uncertain systems
