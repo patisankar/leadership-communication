@@ -59,3 +59,12 @@ Explains impact
 Connects to system behavior
 Reduces future bugs
 The key decision here is map vs list.
+
+| Criteria                 | How Accessibility Helps                 |
+| ------------------------ | --------------------------------------- |
+| **Technical Judgment**   | Highlights what matters most            |
+| **Execution Efficiency** | Fewer revisions, faster alignment       |
+| **Collaboration**        | Feedback is constructive, not directive |
+| **Ownership**            | Clear decisions + follow-through        |
+| **Impact**               | Influence scales beyond own code        |
+
