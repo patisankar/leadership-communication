@@ -68,3 +68,6 @@ The key decision here is map vs list.
 | **Ownership**            | Clear decisions + follow-through        |
 | **Impact**               | Influence scales beyond own code        |
 
+### Reframing : How we think about how we doing
+I apply mindset and reframing to drive clarity and effectiveness in my work. In design reviews, I focus on distilling key decisions and trade-offs to align the team quickly. 
+In code reviews, I provide feedback that emphasizes intent and system impact, helping reduce rework and improve code quality.
