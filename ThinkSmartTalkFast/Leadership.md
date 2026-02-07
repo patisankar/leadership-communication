@@ -1,10 +1,10 @@
-### Mindfullness (258)
+### Mindfullness
 With practice, we can train our brains to be more aware in the present moment. This involves developing metacognition—the ability to notice our thoughts, emotions, bodily sensations, and actions as they occur. 
 Research conducted with Michael Chaskalson shows that leaders can build this skill through regular practice.
 As little as 10 minutes a day, using specific mental practices, can significantly increase in-the-moment awareness.
 
 This awareness creates a small but meaningful pause that allows us to choose our response instead of operating on autopilot. 
-While we won’t achieve this all the time, even a 10% improvement can have a profound impact on ourselves and others. Ultimately, attention may be our most valuable resource, yet it is one that most of us never deliberately train.
+While we won’t achieve this all the time, even a 10% improvement can have a profound impact on ourselves and others. Ultimately, attention may be our most valuable resource, yet it is one that most of us never deliberately train. (258)
 
 #### Metacognitive Habits - Meetings & code reviews
 **Before meeting:**
@@ -38,3 +38,10 @@ Separate blocking issues from suggestions
 **After Submitting Reviews**
 Did my feedback reduce ambiguity or create more?
 Did this review help the PR move forward?
+
+### Accessibility + repetition improve design reviews, PRs 
+Accessible communication turns technical depth into organizational leverage. It reduces rework, improves decisions, and allows my impact to scale beyond the code I write. (255 - Sound smart without saying too much)
+The key decision here is map vs list.
+**Why this matters:** this is a breaking schema change and hard to roll back.
+We’re choosing a map because lookups are always by merchant ID, and ordering is not required.
+**Trade-off:**  maps reduce validation flexibility, but that’s acceptable for this use case.
