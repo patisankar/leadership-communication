@@ -71,3 +71,7 @@ The key decision here is map vs list.
 ### Reframing : How we think about how we doing
 I apply mindset and reframing to drive clarity and effectiveness in my work. In design reviews, I focus on distilling key decisions and trade-offs to align the team quickly. 
 In code reviews, I provide feedback that emphasizes intent and system impact, helping reduce rework and improve code quality.
+
+### Storytelling
+Clearly articulating where we’re going (the concrete outcome), why it’s achievable (assumptions, constraints, and evidence), and how we’ll evaluate progress (signals of success, failure, and learning). 
+Framing discussions this way aligns mental models early, reduces rework during execution, and helps teams adapt to uncertainty without thrashing.
