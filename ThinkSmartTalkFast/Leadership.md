@@ -39,9 +39,23 @@ Separate blocking issues from suggestions
 Did my feedback reduce ambiguity or create more?
 Did this review help the PR move forward?
 
-### Accessibility + repetition improve design reviews, PRs 
-Accessible communication turns technical depth into organizational leverage. It reduces rework, improves decisions, and allows my impact to scale beyond the code I write. (255 - Sound smart without saying too much)
+### Reducing rework:  Accessibility + repetition improve design reviews, PRs 
+Consistently distills complex design decisions into clear, actionable guidance. In design reviews, highlights the key decision, explains trade-offs, and reinforces alignment using examples, reducing rework and follow-up discussions. Provides PR feedback that explains underlying system impact, leading to faster merges and higher code quality.
+255 - Sound smart without saying too much
+1. This is a temporary mitigation.
+Long-term fix: once shadow-vault is rolled out, this logic will move there and be removed from this path.
+I’ll track this with a follow-up task so it doesn’t become permanent.
+**Signals:**
+Clear scope and intent
+Explicit ownership
+Prevents tech debt drift
+
+2. GraphQL work, **addOns** structure change array to map updated.
+**Why**: It breakes the integration, as Gateway doesn't support array, it is expecting map. this is a breaking schema change and hard to roll back
+**Suggestion**: Change the schema that aligns to downstream systems.
+This avoids compatability and keeps works as it was.
+**Signals**
+Explains impact
+Connects to system behavior
+Reduces future bugs
 The key decision here is map vs list.
-**Why this matters:** this is a breaking schema change and hard to roll back.
-We’re choosing a map because lookups are always by merchant ID, and ordering is not required.
-**Trade-off:**  maps reduce validation flexibility, but that’s acceptable for this use case.
