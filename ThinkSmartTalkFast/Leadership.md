@@ -80,3 +80,30 @@ Framing discussions this way aligns mental models early, reduces rework during e
 Effective communication is not about sharing everything I know, but about sharing what others need to hear to move forward. 
 Apply curiosity to understand my audience’s context and empathy to adapt my message. 
 Prioritize clarity, anticipate resistance, and anchor decisions in outcomes that matter—especially in complex or uncertain systems
+
+### Make belief - 270
+On the other end of the spectrum is faith. Faith is a conviction that does not require evidence. In between fact and faith is a belief.
+A belief is a strongly held conviction open to new evidence. So a belief doesn't have to be true, it just has to be useful. So beliefs are tools, not truths.
+Beliefs are tools, not truth. So what that means is that I can try on an alternative perspective if it serves me. So as opposed to thinking I'm bad at presenting, maybe I can do a turnaround on that and say, I'm not bad at presenting.
+Is there any chance, even a 1% minuscule little chance, that might also be true. Yes, of course it could be. The fact that I'm getting up on stage.
+
+### Bring clarity to Complicated Conversation
+So I think the bottom line here, Florian, is if you can buy yourself just a little bit of time, you can think a little bit more, react rather than respond. I make a difference between those two. React is to act again, meaning you think about it and then you act, respond is just to immediately do something.
+What I'm hearing is that you respond quickly and maybe buying yourself some time to react will help.
+**Impromptu Speaking**
+A structure provides a roadmap like a GPS. It is hard to get lost if you have a structure. So by knowing my structure well, let's say I want to use problem, solution, benefit.
+I'm trying to persuade people. I know the problem well, I've thought about it. I've done research, whatever.
+I know the problem well. The solution is something I really believe in, so I also know that well, and I've thought about how I and others benefit. So by having those different parts of the structure known well, because I've thought about, spent time doing it, when I'm in the process of delivering the communication, and if for some reason I feel a little lost or concerned, I simply have to say, okay, I just talked about the problem, I know solution always follows.
+So that's how a structure provides a roadmap. Now, if you go from memorizing or using a technique like the memory palace to just relying on structure, it can feel like a big leap. And that's why practice in low stake situations is important
+
+Do you suggest I use the basic trainings I got with memory palace and how to adjust that so that I can actually speak coherently, but also not be so fixated on that cognitive load, which is exactly my stumbling blocks.?
+How can we feel more comfortable getting through material spontaneously? 
+I really believe the answer is structure and practice. Structure as we were just talking about.
+
+What, so what, now what, is an example of structure. There are many problem, solution, benefit, past, present, future, comparison, contrast, conclusion. Lots of different structures.
+
+A structure provides a roadmap like a GPS. It is hard to get lost if you have a structure. So by knowing my structure well, let's say I want to use problem, solution, benefit.
+
+I'm trying to persuade people. I know the problem well, I've thought about it. I've done research, whatever.
+
+I know the problem well. The solution is something I really believe in, so I also know that well, and I've thought about how I and others benefit. So by having those different parts of the structure known well, because I've thought about, spent time doing it, when I'm in the process of delivering the communication, and if for some reason I feel a little lost or concerned, I simply have to say, okay, I just talked about the problem, I know solution always follows.
