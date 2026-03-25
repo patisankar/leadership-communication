@@ -3,7 +3,7 @@ I’m a Senior Software Engineer with about 15 years of experience building ente
 
 In my recent role at PayPal, I’ve been working on high-scale transaction systems where I contributed to modernizing legacy applications into a modular Angular and React-based frontend, backed by Spring Boot microservices and GraphQL APIs. These systems handle over a million transactions, so a big part of my work has been around reliability—things like idempotent processing, retry orchestration, and event-driven design.
 
-On the frontend side, I’ve focused on building reusable component architectures and improving performance—reducing page load times by around 40% and increasing test coverage significantly. On the backend, I’ve designed scalable microservices and integrated data-driven decision systems using BigQuery.
+On the frontend side, For performance, I focused on reducing how much code loads upfront by using lazy loading and splitting the application into smaller chunks. I also cleaned up unnecessary dependencies and optimized how components update on the screen. On the backend, I’ve designed scalable microservices and integrated data-driven decision systems using BigQuery.
 
 From a cloud perspective, I’ve been deploying and operating services on GCP using Kubernetes, with CI/CD pipelines that reduced deployment times to under 15 minutes.
 
