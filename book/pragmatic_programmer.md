@@ -247,3 +247,109 @@
 - Did I verify or assume?
 - What breaks in production first?
 - What would a senior reviewer challenge?
+
+# PR Review Thinking (Mapped to *The Pragmatic Programmer*)
+
+---
+
+## 🔹 Ownership  
+📘 Cat Ate My Source Code  
+- Are we safe to merge to production?
+- Is behavior truly verified?
+
+→ What can break in prod?
+
+---
+
+## 🔹 No Coincidence  
+📘 Programming by Coincidence  
+- Are we assuming something?
+- Do we know *why* this works?
+
+→ What hidden assumption exists?
+
+---
+
+## 🔹 End-to-End Validation  
+📘 Tracer Bullets  
+- Does this work across all layers?
+- Is behavior actually changing?
+
+→ Is this real behavior or just wiring?
+
+---
+
+## 🔹 Clarity & Contract  
+📘 Communicate  
+- Is API/schema behavior clear?
+- Is backward compatibility preserved?
+
+→ Will clients understand and remain unaffected?
+
+---
+
+## 🔹 Failure Thinking  
+📘 Design for Reality  
+- What happens on failure?
+- Is retry safe?
+
+→ How does this fail in production?
+
+---
+
+## 🔹 Concurrency  
+📘 Design for Reality  
+- Any race conditions?
+- Any ordering assumptions?
+
+→ What if two updates collide?
+
+---
+
+## 🔹 Integration  
+📘 Tracer Bullets  
+- Are downstream assumptions validated?
+
+→ What if downstream behaves differently?
+
+---
+
+## 🔹 Simplicity  
+📘 Software Entropy  
+- Is this unnecessarily complex?
+- Will this degrade over time?
+
+→ Can this be simpler?
+
+---
+
+## 🔹 Tests  
+📘 Tracer Bullets  
+- Do tests prove behavior (not just execution)?
+
+→ What bug is not covered?
+
+---
+
+## ⚡ Reviewer Flow
+
+1. What changed?  
+2. What assumption exists?  
+3. What can break?  
+4. What is missing?  
+5. Is this clear and simple?  
+
+---
+
+## 🧠 Comment Pattern
+
+**Observation + Risk + Question**
+
+Example:
+- “I see X implemented, but Y assumption is unclear. If Z happens, behavior may break. Can we validate or add coverage?”
+
+---
+
+## 🔑 Core Principle
+
+**“A reviewer doesn’t confirm correctness—they expose blind spots.”**
