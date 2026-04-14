@@ -1,355 +1,153 @@
-# Senior Self-Review + System Design (Pragmatic Style)
+# Pragmatic Engineering Guide (Self-Review + PR + System Design)
 
 ---
 
-## 🔹 Self-Review (Backend / GraphQL)
+## 🔹 1. Self-Review (Backend / GraphQL)
 
-### 1. Ownership  
-📘 Cat Ate My Source Code  
-- Did I verify end-to-end behavior?
-- Am I assuming anything?
+### Core Checks
 
-→ Did I verify or just trust?
+**Ownership** 📘  
+- Verified end-to-end behavior?
+
+→ Did I verify or assume?
 
 ---
 
-### 2. No Coincidence  
-📘 Programming by Coincidence  
+**Understanding** 📘  
 - Do I know *why* this works?
-- Any hidden assumptions (input/downstream)?
 
-→ What assumption makes this pass?
-
----
-
-### 3. End-to-End Validation  
-📘 Tracer Bullets  
-- Flow verified: GraphQL → downstream?
-- Real scenarios tested (create/update/edge)?
-
-→ Did I prove behavior or just wire it?
+→ What assumption exists?
 
 ---
 
-### 4. Cleanliness  
-📘 Software Entropy  
-- Any partial mapping / unclear logic / duplication?
+**End-to-End** 📘  
+- Flow complete (GraphQL → downstream)?
+- Real scenarios tested?
 
-→ Would I accept this in others’ PR?
+→ Behavior proven or just wired?
 
 ---
 
-### 5. Contract (GraphQL)  
-📘 Communicate  
+**Contract** 📘  
 - Backward compatible?
-- Clear behavior for optional fields?
+- Clear optional field behavior?
 
-→ What happens if field is missing?
-
----
-
-### 6. Edge Cases  
-📘 Programming by Coincidence  
-- Null / missing / invalid handled?
-
-→ What bad input breaks this?
+→ What if field is missing?
 
 ---
 
-### 7. Partial Updates  
-📘 Programming by Coincidence  
-- Omitted vs false vs null handled?
+**Edge Cases** 📘  
+- Invalid / null / omitted handled?
+- Partial update safe?
 
-→ Am I overwriting existing state?
+→ Am I overwriting state?
 
 ---
 
-### 8. Integration  
-📘 Tracer Bullets  
+**Integration** 📘  
 - Downstream contract verified?
 
-→ What if downstream ignores this?
+→ What if it’s ignored?
 
 ---
 
-### 9. Failure  
-📘 Pragmatic Thinking  
-- Clear error handling?
+**Failure & Safety** 📘  
+- Errors clear?
+- Retry/idempotency safe?
+- Concurrency handled?
 
-→ If this fails, can we debug fast?
-
----
-
-### 10. Retry / Idempotency  
-📘 Design for Reality  
-- Safe under retry / duplicates?
-
-→ What happens if this runs twice?
+→ What breaks in production?
 
 ---
 
-### 11. Concurrency  
-📘 Design for Reality  
-- Race conditions / stale updates?
-
-→ What if two updates collide?
-
----
-
-### 12. Observability  
-📘 Communicate  
+**Observability & Tests** 📘  
 - Logs + traceability?
-
-→ Can I debug this in prod?
-
----
-
-### 13. Tests  
-📘 Tracer Bullets  
-- Edge + failure scenarios covered?
+- Edge + failure tested?
 
 → What bug can survive?
 
 ---
 
-### 14. Readability  
-📘 Software Entropy  
-- Simple, clear, maintainable?
+**Simplicity** 📘  
+- Clear, minimal, maintainable?
 
 → Can I explain in 3 sentences?
 
 ---
 
-### 15. Diff  
-📘 Software Entropy  
-- Any unintended changes?
-
-→ What would I question here?
-
----
-
-## ⚡ 3-Minute Review
-1. Verify (ownership)  
-2. Understand (no coincidence)  
-3. Validate (real scenarios)  
-4. Clean (entropy)  
-5. Failures (reality)
+## ⚡ 2-Min Review
+1. Verify behavior  
+2. Check assumptions  
+3. Validate edge cases  
+4. Think failures  
+5. Keep it simple  
 
 ---
 
-## 🔹 System Design (Interview)
+## 🔹 2. PR Review (Reviewer Mindset)
 
-### 1. Assumptions  
-📘 Ownership  
-- State assumptions clearly  
+### Focus = Find Blind Spots
 
-→ Am I guessing anything?
-
----
-
-### 2. Clarity  
-📘 No Coincidence  
-- Explain *why*, not just *what*  
-
-→ Do I understand this component?
+- What changed?  
+- What assumption exists?  
+- What can break?  
+- What is missing?  
+- Is it simple and clear?  
 
 ---
 
-### 3. Start Simple  
-📘 Tracer Bullets  
-- Build baseline → evolve  
+### Key Areas
 
-→ Am I overcomplicating early?
-
----
-
-### 4. Avoid Over-Engineering  
-📘 Software Entropy  
-- Add only when needed  
-
-→ Is this the simplest design?
+- **Behavior** → Is it truly working end-to-end?  
+- **Contract** → Any API/schema risk?  
+- **Failure** → What happens on error/retry?  
+- **Concurrency** → Any race conditions?  
+- **Integration** → Any downstream mismatch?  
+- **Tests** → What is not covered?  
 
 ---
 
-### 5. Communication  
-📘 Communicate  
-- Structured explanation  
+### Comment Pattern
+**Observation + Risk + Question**
 
-→ Can interviewer follow easily?
-
----
-
-### 6. Failure Handling  
-📘 Design for Reality  
-- Cover failures, retries  
-
-→ What happens when this fails?
+Example:
+“I see X implemented, but Y assumption is unclear. If Z happens, behavior may break. Can we validate?”
 
 ---
 
-### 7. Idempotency  
-📘 Design for Reality  
-- Handle duplicates  
+## 🔹 3. System Design (Interview)
 
-→ Safe under retry?
+### Approach
 
----
-
-### 8. Concurrency  
-📘 No Coincidence  
-- Race conditions / consistency  
-
-→ What if updates collide?
+1. Clarify requirements  
+2. State assumptions  
+3. Start simple  
+4. Scale step-by-step  
+5. Handle failures  
+6. Address concurrency  
+7. Discuss tradeoffs  
 
 ---
 
-### 9. Data Thinking  
-📘 No Coincidence  
-- Source of truth, flow  
+### Key Thinking
 
-→ Do I understand data movement?
-
----
-
-### 10. Observability  
-📘 Communicate  
-- Logs, metrics, tracing  
-
-→ Can we debug this?
-
----
-
-### 11. Tradeoffs  
-📘 Pragmatic Thinking  
-- Explain decisions  
-
-→ Why this vs alternatives?
-
----
-
-## ⚡ Interview Flow
-1. Clarify  
-2. Assumptions  
-3. Simple design  
-4. Scale  
-5. Failures  
-6. Concurrency  
-7. Tradeoffs  
+- **Clarity** → Explain *why*, not just *what*  
+- **Simplicity** → Avoid over-engineering  
+- **Failure** → Design for retries, errors  
+- **Data** → Clear source of truth + flow  
+- **Observability** → Debuggable system  
 
 ---
 
 ## 🔑 Core Principle
+
 **Don’t assume it works — know why it works.**
 
 ---
 
 ## 🧠 Final Self-Talk
-- Did I verify or assume?
+
+- What assumption am I making?
 - What breaks in production first?
-- What would a senior reviewer challenge?
-
-# PR Review Thinking (Mapped to *The Pragmatic Programmer*)
-
----
-
-## 🔹 Ownership  
-📘 Cat Ate My Source Code  
-- Are we safe to merge to production?
-- Is behavior truly verified?
-
-→ What can break in prod?
-
----
-
-## 🔹 No Coincidence  
-📘 Programming by Coincidence  
-- Are we assuming something?
-- Do we know *why* this works?
-
-→ What hidden assumption exists?
-
----
-
-## 🔹 End-to-End Validation  
-📘 Tracer Bullets  
-- Does this work across all layers?
-- Is behavior actually changing?
-
-→ Is this real behavior or just wiring?
-
----
-
-## 🔹 Clarity & Contract  
-📘 Communicate  
-- Is API/schema behavior clear?
-- Is backward compatibility preserved?
-
-→ Will clients understand and remain unaffected?
-
----
-
-## 🔹 Failure Thinking  
-📘 Design for Reality  
-- What happens on failure?
-- Is retry safe?
-
-→ How does this fail in production?
-
----
-
-## 🔹 Concurrency  
-📘 Design for Reality  
-- Any race conditions?
-- Any ordering assumptions?
-
-→ What if two updates collide?
-
----
-
-## 🔹 Integration  
-📘 Tracer Bullets  
-- Are downstream assumptions validated?
-
-→ What if downstream behaves differently?
-
----
-
-## 🔹 Simplicity  
-📘 Software Entropy  
-- Is this unnecessarily complex?
-- Will this degrade over time?
-
-→ Can this be simpler?
-
----
-
-## 🔹 Tests  
-📘 Tracer Bullets  
-- Do tests prove behavior (not just execution)?
-
-→ What bug is not covered?
-
----
-
-## ⚡ Reviewer Flow
-
-1. What changed?  
-2. What assumption exists?  
-3. What can break?  
-4. What is missing?  
-5. Is this clear and simple?  
-
----
-
-## 🧠 Comment Pattern
-
-**Observation + Risk + Question**
-
-Example:
-- “I see X implemented, but Y assumption is unclear. If Z happens, behavior may break. Can we validate or add coverage?”
-
----
-
-## 🔑 Core Principle
-
-**“A reviewer doesn’t confirm correctness—they expose blind spots.”**
+- Did I prove behavior end-to-end?
+- What would a senior engineer challenge?
