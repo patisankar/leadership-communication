@@ -1,5 +1,5 @@
-# High stake situation, how to pause your thinking:  My Problem-Solving Journey: From Speed to Discernment
-
+#   My Problem-Solving Journey: From Speed to Discernment
+High stake situation, how to pause your thinking:
 ## The Surface Story
 I came in questioning whether I actually have real problem-solving skills—whether I can go deep and find optimized solutions. On the surface, it felt like a capability gap.
 
@@ -23,4 +23,30 @@ The answer isn't to go faster or slower. It's to **pause** and ask one question:
 
 ## Next Step
 I'm ready to document what I need to do: a concrete practice or trigger to help me pause in the moment, especially under pressure.
-```
+
+# My DSA Interview Prep: From Surface Learning to Real Understanding
+
+## The Problem
+I practice DSA for 30 minutes daily, but I only learn the *what*—the code, the algorithm. I skip the *why*. When interviewers ask me to explain or adapt it, I'm stuck because I don't have the foundation.
+
+## Why It Happens
+My effort is inconsistent. Some days I go deep; other days I coast. It depends on my energy, work pressure, and sleep. On low-energy days, I default to grinding through problems mindlessly instead of thinking deeply.
+
+## The Real Issue
+Even when I have the insight—like right now—I forget it tomorrow and repeat the same mistake. The insight doesn't stick because I'm not anchoring it anywhere.
+
+## The Solution
+Before I code any DSA problem, I write down a plain-language explanation: "Explain this data structure to someone who's never heard of it."
+
+This forces me to actually *understand* it, not just recite it.
+
+## Making It Stick
+I can't rely on memory. So I make it a hard rule: **No code until the explanation is written down.**
+
+This removes the need to remember—it becomes automatic, part of my routine.
+
+## The Practice
+1. Read the DSA problem
+2. Write a plain-language explanation (no technical jargon)
+3. Then code it
+
