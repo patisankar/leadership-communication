@@ -50,3 +50,35 @@ This removes the need to remember—it becomes automatic, part of my routine.
 2. Write a plain-language explanation (no technical jargon)
 3. Then code it
 
+# My ML Capstone: From Autopilot to Real Understanding
+
+## The Problem
+I'm in a fast-track ML course doing my capstone project. I'm going through activities on autopilot—checking them off without really understanding what I'm building or why. Speed over depth, again.
+
+## The Pattern (Again)
+It's the same issue as DSA and problem-solving at work. I rush through material, memorize the *what*, skip the *why*, and end up without real understanding.
+
+## The Solution: The Five Questions Framework
+Before I implement any ML concept (decision tree, neural networks, etc.), I answer these five questions:
+
+1. **What is it?** — Definition and core concept
+2. **Why does it exist?** — What problem does it solve?
+3. **When to use it?** — What scenarios call for this approach?
+4. **How to use it?** — Implementation and practical application
+5. **How to optimize it?** — Trade-offs, tuning, performance considerations
+
+## Making It Stick
+I can't rely on memory or willpower. So I make it a hard rule:
+
+**Before I write any code for the capstone, I document these five answers.**
+
+No shortcuts. No autopilot.
+
+## The Practice
+For each ML concept in my capstone:
+1. Answer the five questions (write them down)
+2. Then implement the code
+3. Then optimize based on what I learned
+
+That's it. Depth first. Code second.
+
