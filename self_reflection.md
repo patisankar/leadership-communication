@@ -165,17 +165,3 @@ No freezing. No rambling. Just structure.
 ### The Practice
 High-pressure moment → Use the four-part structure → Ask with confidence
 
----
-
-## The Underlying Pattern Across All Four
-
-All four situations share the same root issue: **I default to speed and action over depth and understanding.** Whether it's problem-solving at work, learning DSA, doing my capstone, or asking for help, I skip the thinking phase and jump to execution.
-
-The solution is the same in every case: **Pause. Structure. Then act.**
-
-- **Problem-solving:** Pause and ask what the problem needs
-- **DSA:** Pause and explain before coding
-- **ML Capstone:** Pause and answer five questions before coding
-- **Communication:** Pause and structure your ask before speaking
-
-**The common thread:** I have the capability. I just need to give myself permission to slow down and think, even when I'm under pressure.
