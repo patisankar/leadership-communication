@@ -1,8 +1,69 @@
 # Core Patterns & Solutions
 
 ---
+## PR Review: Pause-and-Think Checklist
 
-## 1. My Problem-Solving Journey: From Speed to Discernment
+Before sending a PR review, pause for 2–5 minutes.
+
+## Understand the change
+
+1. What problem is this PR solving?
+2. What is the complete execution flow?
+3. Which services, classes, APIs, databases, or events are affected?
+4. What assumptions and invariants must remain true?
+5. What happens on success, failure, retry, timeout, and duplicate requests?
+
+## Review the design
+
+Ask:
+
+- Is this the simplest safe design?
+- Are responsibilities in the right place?
+- Does it preserve backward compatibility?
+- Are concurrency, ordering, idempotency, and thread-safety handled?
+- Could this create a regression, data inconsistency, or performance problem?
+- Are observability and rollback covered?
+
+## Review the implementation
+
+Check:
+
+- Correctness
+- Edge cases
+- Error handling
+- Tests
+- Security
+- Performance
+- Naming and readability
+- Configuration and deployment impact
+
+## Before writing a comment
+
+Ask:
+
+1. Is this a real defect, risk, or required improvement?
+2. Can I explain the impact clearly?
+3. Do I have enough context to make this comment?
+4. Is the comment specific and actionable?
+5. Is this a blocking issue or an optional suggestion?
+
+## Comment format
+
+```text
+Observation:
+I noticed that ...
+
+Risk:
+This could cause ...
+
+Recommendation:
+Could we ...?
+
+Reason:
+This would ensure ...
+```
+
+## 1. Emotional thinking : 5 whys to control
 **High-stake situation: How to pause your thinking**
 
 ### The Surface Story
