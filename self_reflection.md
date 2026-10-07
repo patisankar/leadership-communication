@@ -160,6 +160,43 @@ Before I ask for help:
 1. Write down these four things (even just notes)
 2. Then ask out loud
 
+# Managing High-Pressure Interactions with My Manager
+
+### Before the conversation
+1. **Prepare core points** — Identify the 2–3 key facts/answers he's likely to ask
+   about. Write them down if needed. This isn't scripting; it's anchoring in what I
+   already know.
+2. **Check posture** — Sit or stand upright, open chest, shoulders back. Signals
+   readiness, not fear.
+3. **Breathe** — Take three deep breaths before he arrives or before the call to
+   calm the nervous system preemptively.
+
+### During the conversation
+4. **Speak clearly, normal pace** — Don't rush. Rushing signals panic; steady
+   delivery signals control.
+5. **Make eye contact** — Hold his gaze when answering. Non-negotiable.
+6. **Cut filler words** — No "um," "like," "you know." Silence is better than
+   filler — pause silently, then speak.
+7. **Own what I don't know** — No hedging or apologizing. Say "I'll get back to you
+   on that" or "Let me verify and send it over." No explanation needed.
+8. **Match his intensity with steadiness, not aggression** — Stay calm and direct.
+   Calm is the source of power here, not volume.
+
+### After the conversation
+9. **Review what worked** — Did holding eye contact shift his tone? Did clear,
+   steady speech land better? Track what moves the dynamic over time.
+
+## Note on "Pause Thinking"
+
+Originally considered: pausing before responding to interrupt the fear response and
+let actual competence surface ("Let me think about that for a second").
+
+**Adjusted because** he watches closely while I think, so a visible pause can read as
+doubt rather than composure. The adapted approach: arrive at the conversation already
+prepared (per tactic #1), so there's less need to visibly think in front of him in the
+moment.
+
+
 No freezing. No rambling. Just structure.
 
 ### The Practice
