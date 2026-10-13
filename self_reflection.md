@@ -202,3 +202,31 @@ No freezing. No rambling. Just structure.
 ### The Practice
 High-pressure moment → Use the four-part structure → Ask with confidence
 
+## The Pause: Deep Work vs. Shortcuts
+
+(Jeff PR-  confidence level)
+
+**The Problem:**  You're caught between two pressures: move fast (manager wants answers, deadlines loom) and do deep work (you know shortcuts hollow you out). When pressure hits, you default to AI shortcuts and present them with 100% confidence, even though your actual confidence is 5%. You've done this before—on shadow vaulting—and it cost you credibility. You're doing it again now.
+
+The real issue: you're not pausing to choose. You're reacting. Fast thinking (shortcuts, surface-level) wins because it feels urgent. Slow thinking (deep work, understanding) loses because it feels like a luxury you can't afford.
+
+**The Solution:** Before the next big thing lands, commit to one moment of honesty: "Do I actually understand this, or am I about to fake it?" That's the pause. Then decide consciously:
+
+1. If you have time → do it right, and ask for the time you need.
+2. If you don't have time → say that clearly to your manager instead of faking confidence.
+
+**The Frame to Track:** When pressure hits, ask yourself these three things in order:
+
+Do I understand this? (Yes/No/Partially) — Be honest.
+
+Do I have time to understand it fully? (Yes/No) — Check the calendar.
+
+What's my move?
+
+Yes + Yes → Do the deep work. Tell manager the timeline.
+
+Yes + No → Tell manager: "I can give you a surface read, but I won't own it."
+
+No + Yes → Slow down. Do the work.
+
+No + No → Escalate. Don't fake it.
