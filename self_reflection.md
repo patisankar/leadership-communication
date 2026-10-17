@@ -225,6 +225,15 @@ What's my move?
 
 Yes + Yes → Do the deep work. Tell manager the timeline.
 
+## Lead taking credit
+When you pair with your lead, jot down what you both worked on. Keep it simple:
+
+```
+Date
+What you paired on
+What you focused on
+What lead focused on
+```
 Yes + No → Tell manager: "I can give you a surface read, but I won't own it."
 
 No + Yes → Slow down. Do the work.
