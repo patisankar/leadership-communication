@@ -13,12 +13,22 @@ Improve clarity and delivery while keeping your natural accent. Practice prosody
    - Bold 3–4 important words in each sentence.
    - Add `/` where a short pause separates ideas.
    - Add `↓` at the end of statements and `↑` at the end of genuine questions.
+   - Finish statements with a strong downward inflection, and slow slightly on your last few words. This signals that your thought is complete and gives the ending more strength
+     
 5. **Record it again** using your cues. Listen to both versions and notice whether the key points are easier to follow and your sentence endings sound complete.
 
 ## Example
 
 > Yesterday, I completed the snapshot ID change / and added the R1 credit-card test. ↓  
 > Today, I’ll follow up with TJ / on the review. ↓
+
+## Thought Clusters
+
+A **thought cluster** is a group of words that carries a complete, logical meaning on its own. Look for these natural phrases within a sentence instead of treating every word separately.
+
+- **Mark the clusters:** After recording yourself and reviewing the transcript, insert slash marks (`/`) between meaningful phrases. Use the slashes as a roadmap for delivery.
+- **Pause intentionally:** Take a brief pause at each slash. These strategic pauses create a natural rhythm and give listeners time to process each idea.
+- **Build the habit:** Read aloud with the marks, then use the same phrasing in your next recording. Repeating the practice trains you to speak in meaningful chunks more naturally.
 
 ## What to Listen For
 
