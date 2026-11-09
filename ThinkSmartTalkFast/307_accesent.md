@@ -44,3 +44,9 @@ Use the transcript to review wording and structure. Listen to the recording to a
 
 - Apple, [Record and transcribe audio in Notes on iPhone](https://support.apple.com/en-euro/guide/iphone/iphbe11247b5/ios)
 - Think Fast, Talk Smart, [Episode 307: Accent-uate, Don’t Compensate](https://www.fastersmarter.io/307-accent-uate-dont-compensate-why-clarity-matters-more-than-perfection/)
+
+## Practical
+
+AI PROMPT for practice
+
+Here’s my one-sentence headline. / Here are two supporting points / with evidence. / This is the risk or open question. / And this is my next step.” End each sentence with a downward tone. If you want to self-check, record it, get a transcript, bold three or four focus words per sentence, add slashes for thought groups, then record it again
